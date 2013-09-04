@@ -9,7 +9,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'selenium-webdriver', '2.0.0'
+  gem 'selenium-webdriver', '~> 2.35.1'
   gem 'capybara', '2.1.0'
 end
 
@@ -46,6 +46,8 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
+
+#gem 'rubyzip', :require => 'zip/zip'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
